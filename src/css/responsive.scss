@@ -1,3 +1,12 @@
+@media only screen and (max-width: 1200px) {
+  /* ======= Testimonial Section ======= */
+  #testimonial-section {
+    background-position: left bottom;
+    .section-title {
+      background-color: #1e1e1e;
+    }
+  }
+}
 @media only screen and (max-width: 991px) {
   /* ======= Header Section ======= */
   #header-section {
@@ -73,7 +82,7 @@
   }
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 767px) {
   /* ======= Reuseable ======= */
   .container {
     padding: 0 30px !important;
