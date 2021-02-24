@@ -1,13 +1,3 @@
-@media only screen and (max-width: 1200px) {
-  /* ======= Testimonial Section ======= */
-  #testimonial-section {
-    background-position: left bottom;
-  }
-  #testimonial-section .section-title {
-    background-color: #1e1e1e;
-  }
-}
-
 @media only screen and (max-width: 991px) {
   /* ======= Header Section ======= */
   #header-section .navbar .navbar-toggler {
@@ -105,6 +95,25 @@
   /* ======= Testimonial Section ======= */
   #testimonial-section .testimonial-box {
     padding: 60px 30px 80px 30px;
+  }
+  /* ======= Contact Section ======= */
+  #contact-section .right-side .send-msg-box {
+    padding: 30px 20px;
+  }
+  #contact-section .right-side .send-msg-box form textarea {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  /* ======= Header Section ======= */
+  #header-section .navbar .navbar-brand {
+    width: 150px;
+  }
+  /* ======= Footer Section ======= */
+  footer .footer-copyright p,
+  footer .footer-copyright a {
+    font-size: 16px;
   }
 }
 
