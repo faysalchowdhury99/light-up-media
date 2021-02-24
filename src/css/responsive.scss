@@ -1,0 +1,114 @@
+@media only screen and (max-width: 991px) {
+  /* ======= Header Section ======= */
+  #header-section {
+    .navbar {
+      .navbar-toggler {
+        background: #fc2b39;
+        padding: 3px 7px !important;
+        border-radius: 5px;
+        &:focus {
+          box-shadow: none !important;
+        }
+        span {
+          width: 30px;
+          height: 3px;
+          background-color: #ffffff;
+          margin: 6px 0;
+          transition: 0.4s;
+          border-radius: 24px;
+        }
+        &.toggle {
+          .bar-1 {
+            transform: rotate(-45deg) translate(-6px, 5px);
+          }
+          .bar-2 {
+            opacity: 0;
+          }
+          .bar-3 {
+            transform: rotate(45deg) translate(-7px, -7px);
+          }
+        }
+      }
+      .navbar-collapse {
+        background-color: #ffffff;
+        box-shadow: 8px 13px 23px #0000001a;
+        transform: translateY(20px);
+        border-radius: 8px;
+        .nav-item {
+          margin: 10px 0;
+          &:first-child {
+            margin-top: 30px;
+          }
+          &:last-child {
+            margin-bottom: 30px;
+          }
+          .nav-link {
+            padding: 0;
+            color: #272727;
+            &.button {
+              border-color: #272727;
+            }
+          }
+        }
+      }
+      &.sticky-nav {
+        .navbar-collapse {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  /* ======= Banner Section ======= */
+  #banner-section {
+    padding: 200px 0 150px 0;
+  }
+  /* ======= Testimonial Section ======= */
+  #testimonial-section {
+    .testimonial-box {
+      width: 100% !important;
+    }
+    .swiper-navigation {
+      right: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* ======= Reuseable ======= */
+  .container {
+    padding: 0 30px !important;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .big-heading {
+    font-size: 35px;
+  }
+  .big-para-text {
+    font-size: 17px;
+  }
+  .card-heading {
+    font-family: 20px;
+  }
+  #service-section,
+  #testimonial-section,
+  #portfolio-section {
+    padding: 50px 0;
+  }
+  /* ======= Testimonial Section ======= */
+  #testimonial-section {
+    .testimonial-box {
+      padding: 60px 30px 80px 30px;
+    }
+  }
+}
+
+// Responsove For 1400px+
+@media only screen and (min-width: 1400px) {
+  /* ======= Testimonial Section ======= */
+  #testimonial-section {
+    .swiper-navigation {
+      right: 155px;
+    }
+  }
+}

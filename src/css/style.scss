@@ -49,6 +49,7 @@ button:focus {
   font-size: 20px;
   font-family: $e-bold;
   color: #fc2b39;
+  letter-spacing: 5.31px;
 }
 .heading {
   font-size: $heading;
@@ -119,6 +120,7 @@ button:focus {
 /* ======= Header Section ======= */
 #header-section {
   .navbar {
+    transition: all 0.3s ease-in-out;
     .nav-item {
       margin: 0 10px;
       &:first-child {
@@ -144,6 +146,16 @@ button:focus {
       padding: 20px 0 !important;
       transition: all 0.3s ease-in-out;
       background-color: #ffffff;
+      .navbar-collapse {
+        .nav-item {
+          .nav-link {
+            color: #272727 !important;
+            &.button-outline {
+              border-color: #272727;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -209,7 +221,7 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0;
+  padding: 100px 0;
   .swiper-slide {
     .testimonial-box {
       background-color: #3b3b3b;
@@ -227,7 +239,6 @@ button:focus {
     .quote-icon {
       top: 30px;
       z-index: 0 !important;
-      left: 50px;
     }
     .client-info {
       img {
@@ -337,7 +348,6 @@ button:focus {
 }
 
 /* ======= Footer Section ======= */
-
 footer {
   background-color: #171717;
   .footer-widget {

@@ -43,6 +43,7 @@ button:focus {
   font-size: 20px;
   font-family: "euclid-circular-bold";
   color: #fc2b39;
+  letter-spacing: 5.31px;
 }
 
 .heading {
@@ -123,6 +124,11 @@ button:focus {
 }
 
 /* ======= Header Section ======= */
+#header-section .navbar {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 #header-section .navbar .nav-item {
   margin: 0 10px;
 }
@@ -156,6 +162,14 @@ button:focus {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #ffffff;
+}
+
+#header-section .navbar.sticky-nav .navbar-collapse .nav-item .nav-link {
+  color: #272727 !important;
+}
+
+#header-section .navbar.sticky-nav .navbar-collapse .nav-item .nav-link.button-outline {
+  border-color: #272727;
 }
 
 /* ======= banner Section ======= */
@@ -221,7 +235,7 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 #testimonial-section .swiper-slide .testimonial-box {
@@ -242,7 +256,6 @@ button:focus {
 #testimonial-section .testimonial-box .quote-icon {
   top: 30px;
   z-index: 0 !important;
-  left: 50px;
 }
 
 #testimonial-section .testimonial-box .client-info img {
