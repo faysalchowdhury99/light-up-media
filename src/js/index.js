@@ -21,7 +21,7 @@ navbarToggler.addEventListener('click', () => {
 });
 
 // Magnific PopUp
-$('.banner-pop-up-vidoe').magnificPopup({
+$('.banner-pop-up-video').magnificPopup({
     type: 'iframe',
 });
 
