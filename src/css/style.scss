@@ -240,6 +240,10 @@ button:focus {
       top: 30px;
       z-index: 0 !important;
     }
+    .para-text {
+      position: relative;
+      z-index: 1 !important;
+    }
     .client-info {
       img {
         width: 56px;
@@ -259,10 +263,7 @@ button:focus {
     right: 135px;
     bottom: 70px;
     button {
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      border-radius: 50%;
+      padding: 5px 10px;
       display: inline-block;
       margin: 0 5px;
       border-radius: 50%;

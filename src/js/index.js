@@ -7,10 +7,10 @@ window.onscroll = function () {
 function stickyNav() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         navbar.classList.add('sticky-nav');
-        navbarLogo.src = 'img/black-logo.png';
+        navbarLogo.src = 'img/black-logo.svg';
     } else {
         navbar.classList.remove('sticky-nav');
-        navbarLogo.src = 'img/logo.png';
+        navbarLogo.src = 'img/logo.svg';
     }
 }
 

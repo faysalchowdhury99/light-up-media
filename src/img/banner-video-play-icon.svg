@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157" height="116" viewBox="0 0 157 116">
+  <g id="Group_178" data-name="Group 178" transform="translate(-1425 -446)">
+    <g id="Group_4" data-name="Group 4" transform="translate(598 -247)">
+      <path id="Subtraction_2" data-name="Subtraction 2" d="M57.778,116A57.489,57.489,0,0,1,16.923,99.013,58.095,58.095,0,0,1,35.289,4.558a57.587,57.587,0,0,1,63.346,12.43,57.847,57.847,0,0,1,12.382,18.437c.747,1.774,1.413,3.6,1.977,5.43H109.5a54.681,54.681,0,1,0,0,34.293h3.49c-.565,1.834-1.231,3.66-1.977,5.43a58.09,58.09,0,0,1-30.748,30.866A57.236,57.236,0,0,1,57.778,116Z" transform="translate(827 693)" fill="#fff"/>
+      <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M18,9.107,3.071.281A2.025,2.025,0,0,0,0,2.033V19.681a2.034,2.034,0,0,0,3.071,1.752L18,12.611a2.034,2.034,0,0,0,0-3.5Z" transform="translate(878.535 740.14)" fill="#fff"/>
+      <text id="Play_Video" data-name="Play Video" transform="translate(922 755)" fill="#fff" font-size="14" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Play Video</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -258,6 +258,11 @@ button:focus {
   z-index: 0 !important;
 }
 
+#testimonial-section .testimonial-box .para-text {
+  position: relative;
+  z-index: 1 !important;
+}
+
 #testimonial-section .testimonial-box .client-info img {
   width: 56px;
 }
@@ -279,10 +284,7 @@ button:focus {
 }
 
 #testimonial-section .swiper-navigation button {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
+  padding: 5px 10px;
   display: inline-block;
   margin: 0 5px;
   border-radius: 50%;
